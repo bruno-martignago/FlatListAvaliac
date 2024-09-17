@@ -12,7 +12,7 @@ export default props => {
         const item = elemento.item;
         
         return(   
-        <List.Info
+        <List.Item
             title={item.nome}
             description={item.email}
             // left={props => <List.Icon {...props} icon="folder" />}
@@ -24,7 +24,7 @@ export default props => {
                             uri: item.urlImagem
                         }
                     }/>}
-            onPress={() => props.navigation.navigate("DetalheProduto", {id: item.id})}
+            onPress={() => props.navigation.navigate("DetalhePessoa", {id: item.id})}
         />
     )};
 
