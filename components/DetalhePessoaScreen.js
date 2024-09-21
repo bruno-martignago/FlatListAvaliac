@@ -16,9 +16,10 @@ export default ({route, navigation}) => {
                 <Card.Cover source={{
                         uri: pessoa.urlImagem
                     }} />
-                <Card.Title title={pessoa.nome} />
+                <Card.Title title={`Identificador: ${pessoa.id}`} />
+                <Card.Title title={`Nome: ${pessoa.nome}`} />
                 <Card.Content>
-                    <Text variant="bodyMedium">{pessoa.email}</Text>
+                    <Text variant="bodyMedium">{`Email: ${pessoa.email}`}</Text>
                 </Card.Content>
             </Card>
         </View>

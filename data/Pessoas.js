@@ -1,21 +1,21 @@
 export default [
     {
-        id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
+        id: '1',
         nome: 'Ernesto',
         email: 'ernesto244oficial@hotmail.com',
-        urlImagem: 'https://setcesp.org.br/wp-content/uploads/2023/11/171101-980x490.png'
+        urlImagem: 'https://i.pinimg.com/550x/40/0d/a9/400da95628ff099bef6cda85bf026ab5.jpg'
     },
     {
-        id: '3ac68afc-c605-48d3-a4f8-fbd91aa97f63',
+        id: '2',
         nome: 'Rodolfo',
         email: 'rodolfindograu@gmail.com',
-        urlImagem: 'https://www.agendartecultura.com.br/wp-content/uploads/2022/12/meneson.jpg'
+        urlImagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ02YxvXe3De57AIj9BhfmltPwYX7CjSY0nqg&s'
     },
     {
-        id: '5869d4a0f-3da1-471f-bd96-145571e29d72',
+        id: '3',
         nome: 'Joaquina',
         email: 'joaquinaarlequina@gmail.com',
-        urlImagem: 'https://www.eusemfronteiras.com.br/wp-content/uploads/2017/04/shutterstock_1910141359-810x540.jpg'
+        urlImagem: 'https://i1.sndcdn.com/artworks-000020918051-wyiok3-t500x500.jpg'
     }
     
 ];
